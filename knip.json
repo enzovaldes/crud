@@ -1,0 +1,17 @@
+{
+  "entry": [
+    "src/**/*.ts"
+  ],
+  "project": "tsconfig.json",
+  "ignore": [
+    "node_modules/**",
+    "dist/**",
+    "coverage/**",
+    "jest.config.js",
+    "tsconfig.json"
+  ],
+  "ignoreDependencies": [
+    "@types/jest"
+  ],
+  "ignoreBinaries": []
+}

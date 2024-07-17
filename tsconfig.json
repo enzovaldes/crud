@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "lib": [
+      "es6"
+    ],
+    "noImplicitAny": true,
+    "paths": {
+      "@root": [
+        "./src"
+      ],
+      "@pkg": [
+        "./src/pkg"
+      ],
+      "@pkg/*": [
+        "./src/pkg/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "jest.config.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "coverage"
+  ]
+}
